@@ -4,8 +4,8 @@
  * Plugin URI: https://github.com/Herm71/blackbird-core-functionality-plugin.git
  * Description: Contains custom functionality. Theme independent.
  * Version: 1.1.0
- * Author: Blackbird Consulting
- * Author URI: http://www.blackbirdconsult.com/
+ * Author: Jason Chafin
+ * Author URI: https://github.com/Herm71
  * License: GPL2
  * 
  * This program is free software; you can redistribute it and/or modify it under the terms of the GNU 

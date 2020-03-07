@@ -6,9 +6,9 @@
  *
  * @package      Core_Functionality
  * @since        1.0.0
- * @link         https://github.com/billerickson/Core-Functionality
- * @author       Bill Erickson <bill@billerickson.net>
- * @copyright    Copyright (c) 2011, Bill Erickson
+ * @link         https://github.com/Herm71/blackbird-core-functionality-plugin.git
+ * @author       Jason Chafin
+ * @copyright    Copyright (c) 2011, Jason Chafin
  * @license      http://opensource.org/licenses/gpl-2.0.php GNU Public License
  */
 
@@ -18,7 +18,7 @@
  * @link http://codex.wordpress.org/Function_Reference/register_post_type
  */
 
-function be_register_rotator_post_type() {
+function bb_register_rotator_post_type() {
 	$labels = array(
 		'name' => 'Rotator Items',
 		'singular_name' => 'Rotator Item',
@@ -51,4 +51,4 @@ function be_register_rotator_post_type() {
 
 	register_post_type( 'rotator', $args );
 }
-add_action( 'init', 'be_register_rotator_post_type' );	
+// add_action( 'init', 'bb_register_rotator_post_type' );	
