@@ -1,14 +1,8 @@
-![Blackbird Consulting](http://www.blackbirdconsult.com/images/blackbird_header_logo.jpg "Blackbird Consulting")
+# Core Functionality Plugin
 
-## Blackbird Consulting Core Functionality Plugin ##
-@author Blackbird Consulting
- 
-@link http://www.blackbirdconsult.com/
+This is a basic WordPress developer plugin that can contain your site's core functionality. The concept is to keep structural features of a site that are theme independent, such as custom post-types, taxonomies and short-codes out of the theme's code. This will ensure that a future theme change does not affect a site's core functionality.
 
-@more https://github.com/Herm71/blackbird-core-functionality-plugin
-
-
-This plugin can contain your site's core functionality. It contains the following library structure; however, it can be expanded greatly:
+This is boilerplate code. A few includes and a few examples. It can be modified as necessary. 
 
 * general.php -- for any general functions you would write
 
