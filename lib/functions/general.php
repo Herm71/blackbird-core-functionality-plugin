@@ -37,5 +37,3 @@ function bb_custom_functionality_hidden( $r, $url ) {
 }
 add_filter( 'http_request_args', 'bb_custom_functionality_hidden', 5, 2 );
 
-// Use shortcodes in widgets
-add_filter( 'widget_text', 'do_shortcode' );
