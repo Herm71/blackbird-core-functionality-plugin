@@ -22,17 +22,5 @@ define( 'BB_DIR', dirname( __FILE__ ) );
 
 //Include Customization files:
  
-// Post Types
-//include_once( BB_DIR . '/lib/functions/post-types.php' );
-
-// Taxonomies 
-//include_once( BB_DIR . '/lib/functions/taxonomies.php' );
-
-// Shortcodes
-//include_once( BB_DIR . '/lib/widgets/shortcodes.php' );
-
-// Sidebars
-//include_once( BB_DIR . '/lib/widgets/sidebars.php' );
-
 // General
 include_once( BB_DIR . '/lib/functions/general.php' );
