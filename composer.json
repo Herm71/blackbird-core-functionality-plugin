@@ -1,0 +1,24 @@
+{
+    "name": "jason/blackbird-core-functionality-plugin",
+    "description": "Core functionality plugin for Blackbird Consulting",
+    "type": "project",
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^3.0",
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Jason Chafin",
+            "email": "jasonchafin@gmail.com"
+        }
+    ],
+    "scripts": {
+        "lint": "./vendor/bin/phpcs",
+        "lint-fix": "./vendor/bin/phpcbf --extensions=php ."
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}

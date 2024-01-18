@@ -3,7 +3,7 @@
  * Plugin Name: Blackbird Custom Functionality
  * Plugin URI: https://github.com/Herm71/blackbird-core-functionality-plugin.git
  * Description: Contains custom functionality. Theme independent.
- * Version: 1.1.0
+ * Version: 2.0.0
  * Author: Jason Chafin
  * Author URI: https://github.com/Herm71
  * License: GPL2
@@ -21,18 +21,24 @@
 define( 'BB_DIR', dirname( __FILE__ ) );
 
 //Include Customization files:
- 
-// Post Types
-//include_once( BB_DIR . '/lib/functions/post-types.php' );
 
-// Taxonomies 
-//include_once( BB_DIR . '/lib/functions/taxonomies.php' );
+// General.
+if (file_exists(BB_DIR . '/lib/functions/general.php') ) {
+    include_once BB_DIR . '/lib/functions/general.php';
+}
 
-// Shortcodes
-//include_once( BB_DIR . '/lib/widgets/shortcodes.php' );
+// Disable XMLRP.
+if (file_exists(BB_DIR . '/lib/functions/disable-xmlrpc.php') ) {
+    include_once BB_DIR . '/lib/functions/disable-xmlrpc.php';
+}
 
-// Sidebars
-//include_once( BB_DIR . '/lib/widgets/sidebars.php' );
+// Security Headers.
+require_once BB_DIR . '/lib/functions/security-headers.php';
+if (file_exists(BB_DIR . '/lib/functions/security-headers.php') ) {
+    include_once BB_DIR . '/lib/functions/security-headers.php';
+}
 
-// General
-include_once( BB_DIR . '/lib/functions/general.php' );
+// Google Tag Manager.
+// if (file_exists(BB_DIR . '/lib/functions/gtm.php') ) {
+//     include_once BB_DIR . '/lib/functions/gtm.php';
+// }
