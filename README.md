@@ -4,7 +4,7 @@
  ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Herm71/blackbird-core-functionality-plugin/release.yml?logo=github)
 ![GitHub issues](https://img.shields.io/github/issues/Herm71/blackbird-core-functionality-plugin?logo=github)
 
-This is WordPress plugin contains custom functionality for the [Jason Chafin](https://jasonchafin.com) WordPress website. The concept is to keep features of a site that are theme independent, such as custom post-types, taxonomies, and roles separate from the theme code. This will ensure that future theme changes do not affect a site's functionality.
+This is WordPress plugin contains custom functionality for the [Blackbird Consulting](https://blackbirdconsult.com) WordPress website. The concept is to keep features of a site that are theme independent, such as custom post-types, taxonomies, and roles separate from the theme code. This will ensure that future theme changes do not affect a site's functionality.
 
 ## Features
 
