@@ -1,6 +1,6 @@
 {
   "name": "blackbird-core-functionality-plugin",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "Core functionality plugin for Blackbird Consulting",
   "main": "index.js",
   "directories": {
@@ -20,7 +20,7 @@
     "start:hot": "wp-scripts start --hot",
     "test": "lint-staged",
     "zip": "wp-scripts build && wp-scripts plugin-zip"
-  },
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Herm71/blackbird-core-functionality-plugin.git"
@@ -41,10 +41,10 @@
     "lint-staged": "^15.2.0",
     "prettier": "^3.2.4",
     "standard-version": "^9.5.0"
-  },
-  "files": [
+},
+"files": [
     "lib",
     "*.php",
     "*.md"
-  ]
+]
 }
