@@ -1,0 +1,33 @@
+{
+  "name": "blackbird-core-functionality-plugin",
+  "version": "1.0.0",
+  "description": "Core functionality plugin for Blackbird Consulting",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Herm71/blackbird-core-functionality-plugin.git"
+  },
+  "keywords": [
+    "wordpress",
+    "wordpress-plugin"
+  ],
+  "author": "Jason <jchafin@ucsc.edu>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Herm71/blackbird-core-functionality-plugin/issues"
+  },
+  "homepage": "https://github.com/Herm71/blackbird-core-functionality-plugin#readme",
+  "devDependencies": {
+    "@wordpress/prettier-config": "^3.6.0",
+    "@wordpress/scripts": "^27.0.0",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.2.4",
+    "standard-version": "^9.5.0"
+  }
+}
